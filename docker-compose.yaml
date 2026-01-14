@@ -1,0 +1,15 @@
+services:
+  auth-service:
+    build: ./auth-service
+    ports:
+      - "8001:8000"
+
+  profile-service:
+    build: ./profile-service
+    ports:
+      - "8002:8000"
+
+  notification-service:
+    build: ./notification-service
+    ports:
+      - "8003:8000"

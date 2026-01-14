@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ui-config
+data:
+  WELCOME_MESSAGE: "Добро пожаловать в систему управления пользователями!"
+  AUTH_TITLE: "Авторизация"
